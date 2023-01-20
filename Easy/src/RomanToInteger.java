@@ -2,13 +2,13 @@ import java.util.HashMap;
 
 public class RomanToInteger {
     public static void main (String args[]) {
-        Solution2 sol = new Solution2();
+        Solution13I sol = new Solution13I();
         System.out.print(sol.romanToInt("III"));
     }
 }
 
 //13. Roman to Integer
-class Solution1 {
+class Solution13I {
     public int romanToInt(String s) {
         int ans=0,num=0;
         for (int i=s.length()-1;i>=0;i--) {
@@ -28,7 +28,7 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+class Solution13II {
     public int romanToInt (String s) {
         int ans=0, num=0;
         HashMap<Character, Integer> map = new HashMap<>();
