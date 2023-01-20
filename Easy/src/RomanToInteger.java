@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class RomanToInteger {
     public static void main (String args[]) {
         Solution2 sol = new Solution2();
-        System.out.print(sol.romanToInt("LVIII"));
+        System.out.print(sol.romanToInt("III"));
     }
 }
 
